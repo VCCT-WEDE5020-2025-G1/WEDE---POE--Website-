@@ -1,298 +1,420 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Volunteer - The Haven Night Shelter</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Header -->
     <header class="header">
-        <nav class="nav">
-            <div class="nav-container">
-                <div class="logo">
-                    <h1><a href="Index.html">The Haven</a></h1>
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="Index.html" class="nav-link">Home</a></li>
-                    <li><a href="AboutUs.html" class="nav-link">About</a></li>
-                    <li><a href="Volunteer.html" class="nav-link active">Volunteer</a></li>
-                    <li><a href="Events.html" class="nav-link">Events</a></li>
-                </ul>
-                <div class="nav-actions">
-                    <label for="language-switcher" class="visually-hidden">Select Language</label>
-                    <select id="language-switcher" class="language-switcher" aria-label="Select Language">
-                        <option value="en">EN</option>
-                        <option value="af">AF</option>
-                    </select>
-                    <a href="Donate.html" class="btn btn-primary">Donate Now</a>
-                </div>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-        </nav>
+      <nav class="nav">
+        <div class="nav-container">
+          <div class="logo">
+            <h1><a href="Index.html">The Haven</a></h1>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="Index.html" class="nav-link">Home</a></li>
+            <li><a href="AboutUs.html" class="nav-link">About</a></li>
+            <li>
+              <a href="Volunteer.html" class="nav-link active">Volunteer</a>
+            </li>
+            <li><a href="Events.html" class="nav-link">Events</a></li>
+          </ul>
+          <div class="nav-actions">
+            <label for="language-switcher" class="visually-hidden"
+              >Select Language</label
+            >
+            <select
+              id="language-switcher"
+              class="language-switcher"
+              aria-label="Select Language"
+            >
+              <option value="en">EN</option>
+              <option value="af">AF</option>
+            </select>
+            <a href="Donate.html" class="btn btn-primary">Donate Now</a>
+          </div>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- Hero Section -->
     <section class="page-hero">
-        <div class="hero-background">
-            <!-- Added volunteer hero image -->
-            <img src="/placeholder.svg?height=400&width=1200" alt="Make a difference - volunteer with us" class="hero-image">
-            <div class="hero-overlay"></div>
-        </div>
-        <div class="hero-content">
-            <h1 class="hero-title">Make a Difference—Volunteer With Us</h1>
-            <p class="hero-subtitle">Join our community of dedicated volunteers and help transform lives</p>
-            <a href="#signup" class="btn btn-primary btn-large">Get Involved</a>
-        </div>
+      <div class="hero-background">
+        <!-- Added volunteer hero image -->
+        <img
+          src="/placeholder.svg?height=400&width=1200"
+          alt="Make a difference - volunteer with us"
+          class="hero-image"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content">
+        <h1 class="hero-title">Make a Difference—Volunteer With Us</h1>
+        <p class="hero-subtitle">
+          Join our community of dedicated volunteers and help transform lives
+        </p>
+        <a href="#signup" class="btn btn-primary btn-large">Get Involved</a>
+      </div>
     </section>
 
     <!-- Why Volunteer -->
     <section class="why-volunteer">
-        <div class="container">
-            <h2>Why Volunteer?</h2>
-            <p class="section-intro">Volunteering with The Haven means becoming part of a compassionate community dedicated to restoring dignity and hope. Your time and skills make a direct, meaningful impact in helping individuals transition from homelessness to stable housing.</p>
-        </div>
+      <div class="container">
+        <h2>Why Volunteer?</h2>
+        <p class="section-intro">
+          Volunteering with The Haven means becoming part of a compassionate
+          community dedicated to restoring dignity and hope. Your time and
+          skills make a direct, meaningful impact in helping individuals
+          transition from homelessness to stable housing.
+        </p>
+      </div>
     </section>
 
     <!-- Volunteer Opportunities -->
     <section class="opportunities">
-        <div class="container">
-            <h2>Volunteer Opportunities</h2>
-            <div class="opportunities-grid">
-                <div class="opportunity-card">
-                    <div class="opportunity-icon">🍽️</div>
-                    <h3>Kitchen Help</h3>
-                    <p>Assist with meal preparation and serving. Help provide nutritious meals to our residents.</p>
-                    <div class="opportunity-details">
-                        <p><strong>Requirements:</strong> Food safety awareness</p>
-                        <p><strong>Time:</strong> 2-4 hours per shift</p>
-                    </div>
-                    <button class="btn btn-outline apply-btn" data-role="kitchen">Apply</button>
-                </div>
-                <div class="opportunity-card">
-                    <div class="opportunity-icon">📋</div>
-                    <h3>Administrative Support</h3>
-                    <p>Help with data entry, filing, and general office tasks to keep our operations running smoothly.</p>
-                    <div class="opportunity-details">
-                        <p><strong>Requirements:</strong> Basic computer skills</p>
-                        <p><strong>Time:</strong> Flexible hours</p>
-                    </div>
-                    <button class="btn btn-outline apply-btn" data-role="admin">Apply</button>
-                </div>
-                <div class="opportunity-card">
-                    <div class="opportunity-icon">🤝</div>
-                    <h3>Outreach Support</h3>
-                    <p>Join our street outreach teams to connect with individuals and provide information about our services.</p>
-                    <div class="opportunity-details">
-                        <p><strong>Requirements:</strong> Good communication skills</p>
-                        <p><strong>Time:</strong> Evening shifts available</p>
-                    </div>
-                    <button class="btn btn-outline apply-btn" data-role="outreach">Apply</button>
-                </div>
-                <div class="opportunity-card">
-                    <div class="opportunity-icon">🎓</div>
-                    <h3>Skills Training</h3>
-                    <p>Share your professional skills by teaching workshops in areas like job readiness, computer literacy, or trades.</p>
-                    <div class="opportunity-details">
-                        <p><strong>Requirements:</strong> Professional experience</p>
-                        <p><strong>Time:</strong> Weekly workshops</p>
-                    </div>
-                    <button class="btn btn-outline apply-btn" data-role="training">Apply</button>
-                </div>
+      <div class="container">
+        <h2>Volunteer Opportunities</h2>
+        <div class="opportunities-grid">
+          <div class="opportunity-card">
+            <div class="opportunity-icon">🍽️</div>
+            <h3>Kitchen Help</h3>
+            <p>
+              Assist with meal preparation and serving. Help provide nutritious
+              meals to our residents.
+            </p>
+            <div class="opportunity-details">
+              <p><strong>Requirements:</strong> Food safety awareness</p>
+              <p><strong>Time:</strong> 2-4 hours per shift</p>
             </div>
+            <button class="btn btn-outline apply-btn" data-role="kitchen">
+              Apply
+            </button>
+          </div>
+          <div class="opportunity-card">
+            <div class="opportunity-icon">📋</div>
+            <h3>Administrative Support</h3>
+            <p>
+              Help with data entry, filing, and general office tasks to keep our
+              operations running smoothly.
+            </p>
+            <div class="opportunity-details">
+              <p><strong>Requirements:</strong> Basic computer skills</p>
+              <p><strong>Time:</strong> Flexible hours</p>
+            </div>
+            <button class="btn btn-outline apply-btn" data-role="admin">
+              Apply
+            </button>
+          </div>
+          <div class="opportunity-card">
+            <div class="opportunity-icon">🤝</div>
+            <h3>Outreach Support</h3>
+            <p>
+              Join our street outreach teams to connect with individuals and
+              provide information about our services.
+            </p>
+            <div class="opportunity-details">
+              <p><strong>Requirements:</strong> Good communication skills</p>
+              <p><strong>Time:</strong> Evening shifts available</p>
+            </div>
+            <button class="btn btn-outline apply-btn" data-role="outreach">
+              Apply
+            </button>
+          </div>
+          <div class="opportunity-card">
+            <div class="opportunity-icon">🎓</div>
+            <h3>Skills Training</h3>
+            <p>
+              Share your professional skills by teaching workshops in areas like
+              job readiness, computer literacy, or trades.
+            </p>
+            <div class="opportunity-details">
+              <p><strong>Requirements:</strong> Professional experience</p>
+              <p><strong>Time:</strong> Weekly workshops</p>
+            </div>
+            <button class="btn btn-outline apply-btn" data-role="training">
+              Apply
+            </button>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Sign-Up Portal -->
     <section class="signup-portal" id="signup">
-        <div class="container">
-            <h2>Volunteer Application</h2>
-            <form class="volunteer-form">
-                <div class="form-progress">
-                    <div class="progress-step active">1. Personal Info</div>
-                    <div class="progress-step">2. Preferences</div>
-                    <div class="progress-step">3. Confirmation</div>
-                </div>
+      <div class="container">
+        <h2>Volunteer Application</h2>
+        <form class="volunteer-form">
+          <div class="form-progress">
+            <div class="progress-step active">1. Personal Info</div>
+            <div class="progress-step">2. Preferences</div>
+            <div class="progress-step">3. Confirmation</div>
+          </div>
 
-                <div class="form-step active" data-step="1">
-                    <h3>Personal Information</h3>
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="firstName">First Name</label>
-                            <input type="text" id="firstName" name="firstName" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="lastName">Last Name</label>
-                            <input type="text" id="lastName" name="lastName" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" required>
-                    </div>
-                    <button type="button" class="btn btn-primary next-step">Next</button>
-                </div>
+          <div class="form-step active" data-step="1">
+            <h3>Personal Information</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+            <button type="button" class="btn btn-primary next-step">
+              Next
+            </button>
+          </div>
 
-                <div class="form-step" data-step="2">
-                    <h3>Volunteer Preferences</h3>
-                    <div class="form-group">
-                        <label for="role">Preferred Role</label>
-                        <select id="role" name="role" required>
-                            <option value="">Select a role</option>
-                            <option value="kitchen">Kitchen Help</option>
-                            <option value="admin">Administrative Support</option>
-                            <option value="outreach">Outreach Support</option>
-                            <option value="training">Skills Training</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="availability">Availability</label>
-                        <div class="checkbox-group">
-                            <label><input type="checkbox" name="availability" value="weekday-morning"> Weekday Mornings</label>
-                            <label><input type="checkbox" name="availability" value="weekday-afternoon"> Weekday Afternoons</label>
-                            <label><input type="checkbox" name="availability" value="weekday-evening"> Weekday Evenings</label>
-                            <label><input type="checkbox" name="availability" value="weekend"> Weekends</label>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="skills">Skills & Interests</label>
-                        <textarea id="skills" name="skills" placeholder="Tell us about your skills, experience, or special interests..."></textarea>
-                    </div>
-                    <div class="form-actions">
-                        <button type="button" class="btn btn-outline prev-step">Previous</button>
-                        <button type="button" class="btn btn-primary next-step">Next</button>
-                    </div>
-                </div>
+          <div class="form-step" data-step="2">
+            <h3>Volunteer Preferences</h3>
+            <div class="form-group">
+              <label for="role">Preferred Role</label>
+              <select id="role" name="role" required>
+                <option value="">Select a role</option>
+                <option value="kitchen">Kitchen Help</option>
+                <option value="admin">Administrative Support</option>
+                <option value="outreach">Outreach Support</option>
+                <option value="training">Skills Training</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="availability">Availability</label>
+              <div class="checkbox-group">
+                <label
+                  ><input
+                    type="checkbox"
+                    name="availability"
+                    value="weekday-morning"
+                  />
+                  Weekday Mornings</label
+                >
+                <label
+                  ><input
+                    type="checkbox"
+                    name="availability"
+                    value="weekday-afternoon"
+                  />
+                  Weekday Afternoons</label
+                >
+                <label
+                  ><input
+                    type="checkbox"
+                    name="availability"
+                    value="weekday-evening"
+                  />
+                  Weekday Evenings</label
+                >
+                <label
+                  ><input type="checkbox" name="availability" value="weekend" />
+                  Weekends</label
+                >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="skills">Skills & Interests</label>
+              <textarea
+                id="skills"
+                name="skills"
+                placeholder="Tell us about your skills, experience, or special interests..."
+              ></textarea>
+            </div>
+            <div class="form-actions">
+              <button type="button" class="btn btn-outline prev-step">
+                Previous
+              </button>
+              <button type="button" class="btn btn-primary next-step">
+                Next
+              </button>
+            </div>
+          </div>
 
-                <div class="form-step" data-step="3">
-                    <h3>Confirmation</h3>
-                    <div class="confirmation-summary">
-                        <p>Thank you for your interest in volunteering with The Haven! Please review your information:</p>
-                        <div id="summary-content"></div>
-                    </div>
-                    <div class="form-group">
-                        <label>
-                            <input type="checkbox" name="agreement" required>
-                            I agree to undergo a background check and attend a volunteer orientation session.
-                        </label>
-                    </div>
-                    <div class="form-actions">
-                        <button type="button" class="btn btn-outline prev-step">Previous</button>
-                        <button type="submit" class="btn btn-primary">Submit Application</button>
-                    </div>
-                </div>
-            </form>
-        </div>
+          <div class="form-step" data-step="3">
+            <h3>Confirmation</h3>
+            <div class="confirmation-summary">
+              <p>
+                Thank you for your interest in volunteering with The Haven!
+                Please review your information:
+              </p>
+              <div id="summary-content"></div>
+            </div>
+            <div class="form-group">
+              <label>
+                <input type="checkbox" name="agreement" required />
+                I agree to undergo a background check and attend a volunteer
+                orientation session.
+              </label>
+            </div>
+            <div class="form-actions">
+              <button type="button" class="btn btn-outline prev-step">
+                Previous
+              </button>
+              <button type="submit" class="btn btn-primary">
+                Submit Application
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
     </section>
 
     <!-- Volunteer Stories -->
     <section class="volunteer-stories">
-        <div class="container">
-            <h2>Volunteer Stories</h2>
-            <div class="stories-grid">
-                <div class="story-card">
-                    <!-- Added volunteer portraits -->
-                    <img src="/placeholder.svg?height=200&width=200" alt="Sarah, Volunteer">
-                    <div class="story-content">
-                        <h3>Sarah M.</h3>
-                        <p>"Volunteering at The Haven has been incredibly rewarding. Seeing the positive impact we make in people's lives motivates me to keep coming back every week."</p>
-                        <span class="volunteer-role">Kitchen Volunteer, 2 years</span>
-                    </div>
-                </div>
-                <div class="story-card">
-                    <img src="/placeholder.svg?height=200&width=200" alt="David, Volunteer">
-                    <div class="story-content">
-                        <h3>David K.</h3>
-                        <p>"Teaching job readiness workshops has allowed me to share my professional experience while learning so much from the resilient individuals we serve."</p>
-                        <span class="volunteer-role">Skills Trainer, 1 year</span>
-                    </div>
-                </div>
+      <div class="container">
+        <h2>Volunteer Stories</h2>
+        <div class="stories-grid">
+          <div class="story-card">
+            <!-- Added volunteer portraits -->
+            <img
+              src="/placeholder.svg?height=200&width=200"
+              alt="Sarah, Volunteer"
+            />
+            <div class="story-content">
+              <h3>Sarah M.</h3>
+              <p>
+                "Volunteering at The Haven has been incredibly rewarding. Seeing
+                the positive impact we make in people's lives motivates me to
+                keep coming back every week."
+              </p>
+              <span class="volunteer-role">Kitchen Volunteer, 2 years</span>
             </div>
+          </div>
+          <div class="story-card">
+            <img
+              src="/placeholder.svg?height=200&width=200"
+              alt="David, Volunteer"
+            />
+            <div class="story-content">
+              <h3>David K.</h3>
+              <p>
+                "Teaching job readiness workshops has allowed me to share my
+                professional experience while learning so much from the
+                resilient individuals we serve."
+              </p>
+              <span class="volunteer-role">Skills Trainer, 1 year</span>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- FAQ -->
     <section class="faq-section">
-        <div class="container">
-            <h2>Frequently Asked Questions</h2>
-            <div class="faq-list">
-                <div class="faq-item">
-                    <button class="faq-question">What is the time commitment for volunteers?</button>
-                    <div class="faq-answer">
-                        <p>We appreciate any time you can offer! Most volunteers commit to 2-4 hours per week, but we can work with your schedule.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question">Do I need special qualifications to volunteer?</button>
-                    <div class="faq-answer">
-                        <p>Most volunteer roles require no special qualifications, just enthusiasm and compassion. We provide training for all positions.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question">Is there a minimum age requirement?</button>
-                    <div class="faq-answer">
-                        <p>Volunteers must be at least 18 years old. We do have special programs for younger volunteers with parental consent.</p>
-                    </div>
-                </div>
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">
+              What is the time commitment for volunteers?
+            </button>
+            <div class="faq-answer">
+              <p>
+                We appreciate any time you can offer! Most volunteers commit to
+                2-4 hours per week, but we can work with your schedule.
+              </p>
             </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Do I need special qualifications to volunteer?
+            </button>
+            <div class="faq-answer">
+              <p>
+                Most volunteer roles require no special qualifications, just
+                enthusiasm and compassion. We provide training for all
+                positions.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Is there a minimum age requirement?
+            </button>
+            <div class="faq-answer">
+              <p>
+                Volunteers must be at least 18 years old. We do have special
+                programs for younger volunteers with parental consent.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-section">
-                    <h3>The Haven</h3>
-                    <p>Providing shelter, support, and dignity to help the homeless reintegrate into society.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="AboutUs.html">About</a></li>
-                        <li><a href="Volunteer.html">Volunteer</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Contact Info</h4>
-                    <!-- Added GPS coordinates -->
-                    <p>123 Main Street<br>Cape Town, 8001<br>South Africa</p>
-                    <p><strong>GPS:</strong> -33.9249° S, 18.4241° E</p>
-                    <p>Phone: +27 21 123 4567<br>Email: info@haven.org.za<br>Volunteer Coordinator: volunteer@haven.org.za</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Newsletter</h4>
-                    <p>Stay updated with our latest news and impact stories</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Your email" required>
-                        <button type="submit" class="btn btn-primary">Subscribe</button>
-                    </form>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <!-- Added comprehensive copyright and rights notice -->
-                <p>&copy; 2025 The Haven Night Shelter. All rights reserved.</p>
-                <p class="legal-notice">
-                    <a href="#privacy">Privacy Policy</a> | 
-                    <a href="#terms">Terms of Service</a> | 
-                    NPO Registration: 123-456-NPO | 
-                    PBO Number: 930012345
-                </p>
-                <p class="attribution">Website content, images, and materials are protected by copyright law. Unauthorized reproduction is prohibited.</p>
-            </div>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-section">
+            <h3>The Haven</h3>
+            <p>
+              Providing shelter, support, and dignity to help the homeless
+              reintegrate into society.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="AboutUs.html">About</a></li>
+              <li><a href="Volunteer.html">Volunteer</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <!-- Added GPS coordinates -->
+            <p>123 Main Street<br />Cape Town, 8001<br />South Africa</p>
+            <p><strong>GPS:</strong> -33.9249° S, 18.4241° E</p>
+            <p>
+              Phone: +27 21 123 4567<br />Email: info@haven.org.za<br />Volunteer
+              Coordinator: volunteer@haven.org.za
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4>Newsletter</h4>
+            <p>Stay updated with our latest news and impact stories</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your email" required />
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
         </div>
+        <div class="footer-bottom">
+          <!-- Added comprehensive copyright and rights notice -->
+          <p>&copy; 2025 The Haven Night Shelter. All rights reserved.</p>
+          <p class="legal-notice">
+            <a href="#privacy">Privacy Policy</a> |
+            <a href="#terms">Terms of Service</a> | NPO Registration:
+            123-456-NPO | PBO Number: 930012345
+          </p>
+          <p class="attribution">
+            Website content, images, and materials are protected by copyright
+            law. Unauthorized reproduction is prohibited.
+          </p>
+        </div>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
