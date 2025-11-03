@@ -426,6 +426,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 })
 
+
 // Events Calendar
 document.addEventListener("DOMContentLoaded", () => {
   try {
@@ -436,7 +437,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const prevBtn = document.querySelector("#prevMonth")
     const nextBtn = document.querySelector("#nextMonth")
 
-    const currentDate = new Date()
+    // Initialize to March 2025 to match HTML and events
+    const currentDate = new Date(2025, 2, 1) // March 2025
     const events = {
       "2025-03-15": "Community Fundraising Walk",
       "2025-03-22": "Volunteer Appreciation Dinner",
@@ -483,7 +485,22 @@ document.addEventListener("DOMContentLoaded", () => {
             dayElement.title = events[dateString]
           }
 
+          // Highlight today's date
+          const today = new Date()
+          if (day === today.getDate() && month === today.getMonth() && year === today.getFullYear()) {
+            dayElement.classList.add("today")
+          }
+
           calendar.appendChild(dayElement)
+        }
+
+        // Add trailing empty cells to fill the grid (assuming 6 weeks max)
+        const totalCells = startingDayOfWeek + daysInMonth
+        const remainingCells = Math.ceil(totalCells / 7) * 7 - totalCells
+        for (let i = 0; i < remainingCells; i++) {
+          const emptyDay = document.createElement("div")
+          emptyDay.className = "calendar-day empty"
+          calendar.appendChild(emptyDay)
         }
 
         if (currentMonthElement) {

@@ -1,455 +1,628 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Volunteer - The Haven Night Shelter</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Header -->
     <header class="header">
-        <nav class="nav">
-            <div class="nav-container">
-                <div class="logo">
-                    <h1><a href="Index.html">The Haven</a></h1>
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="Index.html" class="nav-link">Home</a></li>
-                    <li><a href="AboutUs.html" class="nav-link">About</a></li>
-                    <li><a href="Volunteer.html" class="nav-link active">Volunteer</a></li>
-                    <li><a href="Events.html" class="nav-link">Events</a></li>
-                </ul>
-                <div class="nav-actions">
-                    <select class="language-switcher" aria-label="Language Switcher">
-                        <option value="en">EN</option>
-                        <option value="af">AF</option>
-                    </select>
-                    <a href="Donate.html" class="btn btn-primary">Donate Now</a>
-                </div>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-        </nav>
+      <nav class="nav">
+        <div class="nav-container">
+          <div class="logo">
+            <h1><a href="Index.html">The Haven</a></h1>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="Index.html" class="nav-link">Home</a></li>
+            <li><a href="AboutUs.html" class="nav-link">About</a></li>
+            <li>
+              <a href="Volunteer.html" class="nav-link active">Volunteer</a>
+            </li>
+            <li><a href="Events.html" class="nav-link">Events</a></li>
+          </ul>
+          <div class="nav-actions">
+            <select class="language-switcher" aria-label="Language Switcher">
+              <option value="en">EN</option>
+              <option value="af">AF</option>
+            </select>
+            <a href="Donate.html" class="btn btn-primary">Donate Now</a>
+          </div>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- New hero section with split design and call-to-action focus -->
     <section class="volunteer-hero">
-        <div class="volunteer-hero-split">
-            <div class="volunteer-hero-content">
-                <span class="hero-badge">Join Our Community</span>
-                <h1 class="volunteer-hero-title">Make a Real Difference</h1>
-                <p class="volunteer-hero-text">Every hour you give transforms lives. Join our team of dedicated volunteers and be part of something meaningful.</p>
-                <div class="volunteer-hero-stats">
-                    <div class="hero-stat-item">
-                        <strong>250+</strong>
-                        <span>Active Volunteers</span>
-                    </div>
-                    <div class="hero-stat-item">
-                        <strong>15,000+</strong>
-                        <span>Hours Donated</span>
-                    </div>
-                    <div class="hero-stat-item">
-                        <strong>98%</strong>
-                        <span>Would Recommend</span>
-                    </div>
-                </div>
-                <a href="#signup" class="btn btn-large btn-primary volunteer-cta">Start Your Journey</a>
+      <div class="volunteer-hero-split">
+        <div class="volunteer-hero-content">
+          <span class="hero-badge">Join Our Community</span>
+          <h1 class="volunteer-hero-title">Make a Real Difference</h1>
+          <p class="volunteer-hero-text">
+            Every hour you give transforms lives. Join our team of dedicated
+            volunteers and be part of something meaningful.
+          </p>
+          <div class="volunteer-hero-stats">
+            <div class="hero-stat-item">
+              <strong>250+</strong>
+              <span>Active Volunteers</span>
             </div>
-            <div class="volunteer-hero-image">
-                <img src="/placeholder.svg?height=600&width=600" alt="Volunteers making a difference">
-                <div class="floating-badge badge-1">
-                    <span class="badge-icon">❤️</span>
-                    <span class="badge-text">Compassion</span>
-                </div>
-                <div class="floating-badge badge-2">
-                    <span class="badge-icon">🤝</span>
-                    <span class="badge-text">Community</span>
-                </div>
-                <div class="floating-badge badge-3">
-                    <span class="badge-icon">✨</span>
-                    <span class="badge-text">Impact</span>
-                </div>
+            <div class="hero-stat-item">
+              <strong>15,000+</strong>
+              <span>Hours Donated</span>
             </div>
+            <div class="hero-stat-item">
+              <strong>98%</strong>
+              <span>Would Recommend</span>
+            </div>
+          </div>
+          <a href="#signup" class="btn btn-large btn-primary volunteer-cta"
+            >Start Your Journey</a
+          >
         </div>
+        <div class="volunteer-hero-image">
+          <img
+            src="/placeholder.svg?height=600&width=600"
+            alt="Volunteers making a difference"
+          />
+          <div class="floating-badge badge-1">
+            <span class="badge-icon">❤️</span>
+            <span class="badge-text">Compassion</span>
+          </div>
+          <div class="floating-badge badge-2">
+            <span class="badge-icon">🤝</span>
+            <span class="badge-text">Community</span>
+          </div>
+          <div class="floating-badge badge-3">
+            <span class="badge-icon">✨</span>
+            <span class="badge-text">Impact</span>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- New why volunteer section with visual cards -->
     <section class="why-volunteer-section">
-        <div class="container">
-            <div class="section-header-center">
-                <h2>Why Volunteer With Us?</h2>
-                <p>Discover the rewards of giving back to your community</p>
-            </div>
-            <div class="why-volunteer-grid">
-                <div class="why-card">
-                    <div class="why-icon">💪</div>
-                    <h3>Build Skills</h3>
-                    <p>Develop leadership, communication, and problem-solving abilities while making a difference.</p>
-                </div>
-                <div class="why-card">
-                    <div class="why-icon">🌟</div>
-                    <h3>Create Impact</h3>
-                    <p>See the direct results of your efforts in the lives of those we serve every single day.</p>
-                </div>
-                <div class="why-card">
-                    <div class="why-icon">👥</div>
-                    <h3>Meet People</h3>
-                    <p>Connect with like-minded individuals who share your passion for helping others.</p>
-                </div>
-                <div class="why-card">
-                    <div class="why-icon">🎯</div>
-                    <h3>Flexible Hours</h3>
-                    <p>Choose shifts that fit your schedule - from one-time events to regular commitments.</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header-center">
+          <h2>Why Volunteer With Us?</h2>
+          <p>Discover the rewards of giving back to your community</p>
         </div>
+        <div class="why-volunteer-grid">
+          <div class="why-card">
+            <div class="why-icon">💪</div>
+            <h3>Build Skills</h3>
+            <p>
+              Develop leadership, communication, and problem-solving abilities
+              while making a difference.
+            </p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon">🌟</div>
+            <h3>Create Impact</h3>
+            <p>
+              See the direct results of your efforts in the lives of those we
+              serve every single day.
+            </p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon">👥</div>
+            <h3>Meet People</h3>
+            <p>
+              Connect with like-minded individuals who share your passion for
+              helping others.
+            </p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon">🎯</div>
+            <h3>Flexible Hours</h3>
+            <p>
+              Choose shifts that fit your schedule - from one-time events to
+              regular commitments.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Redesigned opportunities section with visual hierarchy -->
     <section class="volunteer-opportunities">
-        <div class="container">
-            <div class="section-header-center">
-                <h2>Volunteer Opportunities</h2>
-                <p>Find the perfect role that matches your skills and interests</p>
-            </div>
-            <div class="opportunities-showcase">
-                <!-- Featured Opportunity -->
-                <div class="opportunity-featured">
-                    <div class="opportunity-featured-content">
-                        <span class="opportunity-tag featured-tag">Most Needed</span>
-                        <h3>Meal Service Volunteers</h3>
-                        <p>Help prepare and serve nutritious meals to our residents. No cooking experience required - just a warm heart and willing hands.</p>
-                        <div class="opportunity-meta">
-                            <div class="meta-item">
-                                <span class="meta-icon">⏰</span>
-                                <span>Evening shifts (5-8 PM)</span>
-                            </div>
-                            <div class="meta-item">
-                                <span class="meta-icon">📍</span>
-                                <span>All shelter locations</span>
-                            </div>
-                            <div class="meta-item">
-                                <span class="meta-icon">👥</span>
-                                <span>Teams of 4-6 people</span>
-                            </div>
-                        </div>
-                        <button class="btn btn-primary" onclick="scrollToSignup()">Apply Now</button>
-                    </div>
-                    <div class="opportunity-featured-image">
-                        <img src="/placeholder.svg?height=400&width=500" alt="Meal service volunteers">
-                    </div>
-                </div>
-
-                <!-- Regular Opportunities Grid -->
-                <div class="opportunities-grid-new">
-                    <div class="opportunity-card-new">
-                        <div class="opportunity-header">
-                            <span class="opportunity-icon">📚</span>
-                            <span class="opportunity-tag">Ongoing</span>
-                        </div>
-                        <h4>Education Support</h4>
-                        <p>Tutor residents in literacy, numeracy, or job skills. Help them build confidence for their future.</p>
-                        <ul class="opportunity-list">
-                            <li>2-3 hours per week</li>
-                            <li>Flexible scheduling</li>
-                            <li>Training provided</li>
-                        </ul>
-                        <button class="btn btn-outline btn-full" onclick="scrollToSignup()">Learn More</button>
-                    </div>
-
-                    <div class="opportunity-card-new">
-                        <div class="opportunity-header">
-                            <span class="opportunity-icon">🏥</span>
-                            <span class="opportunity-tag">Specialized</span>
-                        </div>
-                        <h4>Healthcare Support</h4>
-                        <p>Medical professionals provide basic health screenings and wellness education to residents.</p>
-                        <ul class="opportunity-list">
-                            <li>Monthly clinics</li>
-                            <li>Medical background required</li>
-                            <li>High impact role</li>
-                        </ul>
-                        <button class="btn btn-outline btn-full" onclick="scrollToSignup()">Learn More</button>
-                    </div>
-
-                    <div class="opportunity-card-new">
-                        <div class="opportunity-header">
-                            <span class="opportunity-icon">🎨</span>
-                            <span class="opportunity-tag">Creative</span>
-                        </div>
-                        <h4>Activities Coordinator</h4>
-                        <p>Organize recreational activities, art workshops, and social events for residents.</p>
-                        <ul class="opportunity-list">
-                            <li>Weekly sessions</li>
-                            <li>Creative freedom</li>
-                            <li>Fun and rewarding</li>
-                        </ul>
-                        <button class="btn btn-outline btn-full" onclick="scrollToSignup()">Learn More</button>
-                    </div>
-
-                    <div class="opportunity-card-new">
-                        <div class="opportunity-header">
-                            <span class="opportunity-icon">💼</span>
-                            <span class="opportunity-tag">Professional</span>
-                        </div>
-                        <h4>Career Mentorship</h4>
-                        <p>Guide residents through job searches, resume building, and interview preparation.</p>
-                        <ul class="opportunity-list">
-                            <li>1-on-1 mentoring</li>
-                            <li>Professional experience helpful</li>
-                            <li>Life-changing impact</li>
-                        </ul>
-                        <button class="btn btn-outline btn-full" onclick="scrollToSignup()">Learn More</button>
-                    </div>
-
-                    <div class="opportunity-card-new">
-                        <div class="opportunity-header">
-                            <span class="opportunity-icon">🧹</span>
-                            <span class="opportunity-tag">Flexible</span>
-                        </div>
-                        <h4>Facility Maintenance</h4>
-                        <p>Help keep our shelters clean, safe, and welcoming for all residents and visitors.</p>
-                        <ul class="opportunity-list">
-                            <li>Weekend shifts available</li>
-                            <li>No experience needed</li>
-                            <li>Team environment</li>
-                        </ul>
-                        <button class="btn btn-outline btn-full" onclick="scrollToSignup()">Learn More</button>
-                    </div>
-
-                    <div class="opportunity-card-new">
-                        <div class="opportunity-header">
-                            <span class="opportunity-icon">📞</span>
-                            <span class="opportunity-tag">Remote</span>
-                        </div>
-                        <h4>Administrative Support</h4>
-                        <p>Assist with data entry, phone calls, social media, and other office tasks from home.</p>
-                        <ul class="opportunity-list">
-                            <li>Work from anywhere</li>
-                            <li>Flexible hours</li>
-                            <li>Computer skills needed</li>
-                        </ul>
-                        <button class="btn btn-outline btn-full" onclick="scrollToSignup()">Learn More</button>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header-center">
+          <h2>Volunteer Opportunities</h2>
+          <p>Find the perfect role that matches your skills and interests</p>
         </div>
+        <div class="opportunities-showcase">
+          <!-- Featured Opportunity -->
+          <div class="opportunity-featured">
+            <div class="opportunity-featured-content">
+              <span class="opportunity-tag featured-tag">Most Needed</span>
+              <h3>Meal Service Volunteers</h3>
+              <p>
+                Help prepare and serve nutritious meals to our residents. No
+                cooking experience required - just a warm heart and willing
+                hands.
+              </p>
+              <div class="opportunity-meta">
+                <div class="meta-item">
+                  <span class="meta-icon">⏰</span>
+                  <span>Evening shifts (5-8 PM)</span>
+                </div>
+                <div class="meta-item">
+                  <span class="meta-icon">📍</span>
+                  <span>All shelter locations</span>
+                </div>
+                <div class="meta-item">
+                  <span class="meta-icon">👥</span>
+                  <span>Teams of 4-6 people</span>
+                </div>
+              </div>
+              <button class="btn btn-primary" onclick="scrollToSignup()">
+                Apply Now
+              </button>
+            </div>
+            <div class="opportunity-featured-image">
+              <img
+                src="/placeholder.svg?height=400&width=500"
+                alt="Meal service volunteers"
+              />
+            </div>
+          </div>
+
+          <!-- Regular Opportunities Grid -->
+          <div class="opportunities-grid-new">
+            <div class="opportunity-card-new">
+              <div class="opportunity-header">
+                <span class="opportunity-icon">📚</span>
+                <span class="opportunity-tag">Ongoing</span>
+              </div>
+              <h4>Education Support</h4>
+              <p>
+                Tutor residents in literacy, numeracy, or job skills. Help them
+                build confidence for their future.
+              </p>
+              <ul class="opportunity-list">
+                <li>2-3 hours per week</li>
+                <li>Flexible scheduling</li>
+                <li>Training provided</li>
+              </ul>
+              <button
+                class="btn btn-outline btn-full"
+                onclick="scrollToSignup()"
+              >
+                Learn More
+              </button>
+            </div>
+
+            <div class="opportunity-card-new">
+              <div class="opportunity-header">
+                <span class="opportunity-icon">🏥</span>
+                <span class="opportunity-tag">Specialized</span>
+              </div>
+              <h4>Healthcare Support</h4>
+              <p>
+                Medical professionals provide basic health screenings and
+                wellness education to residents.
+              </p>
+              <ul class="opportunity-list">
+                <li>Monthly clinics</li>
+                <li>Medical background required</li>
+                <li>High impact role</li>
+              </ul>
+              <button
+                class="btn btn-outline btn-full"
+                onclick="scrollToSignup()"
+              >
+                Learn More
+              </button>
+            </div>
+
+            <div class="opportunity-card-new">
+              <div class="opportunity-header">
+                <span class="opportunity-icon">🎨</span>
+                <span class="opportunity-tag">Creative</span>
+              </div>
+              <h4>Activities Coordinator</h4>
+              <p>
+                Organize recreational activities, art workshops, and social
+                events for residents.
+              </p>
+              <ul class="opportunity-list">
+                <li>Weekly sessions</li>
+                <li>Creative freedom</li>
+                <li>Fun and rewarding</li>
+              </ul>
+              <button
+                class="btn btn-outline btn-full"
+                onclick="scrollToSignup()"
+              >
+                Learn More
+              </button>
+            </div>
+
+            <div class="opportunity-card-new">
+              <div class="opportunity-header">
+                <span class="opportunity-icon">💼</span>
+                <span class="opportunity-tag">Professional</span>
+              </div>
+              <h4>Career Mentorship</h4>
+              <p>
+                Guide residents through job searches, resume building, and
+                interview preparation.
+              </p>
+              <ul class="opportunity-list">
+                <li>1-on-1 mentoring</li>
+                <li>Professional experience helpful</li>
+                <li>Life-changing impact</li>
+              </ul>
+              <button
+                class="btn btn-outline btn-full"
+                onclick="scrollToSignup()"
+              >
+                Learn More
+              </button>
+            </div>
+
+            <div class="opportunity-card-new">
+              <div class="opportunity-header">
+                <span class="opportunity-icon">🧹</span>
+                <span class="opportunity-tag">Flexible</span>
+              </div>
+              <h4>Facility Maintenance</h4>
+              <p>
+                Help keep our shelters clean, safe, and welcoming for all
+                residents and visitors.
+              </p>
+              <ul class="opportunity-list">
+                <li>Weekend shifts available</li>
+                <li>No experience needed</li>
+                <li>Team environment</li>
+              </ul>
+              <button
+                class="btn btn-outline btn-full"
+                onclick="scrollToSignup()"
+              >
+                Learn More
+              </button>
+            </div>
+
+            <div class="opportunity-card-new">
+              <div class="opportunity-header">
+                <span class="opportunity-icon">📞</span>
+                <span class="opportunity-tag">Remote</span>
+              </div>
+              <h4>Administrative Support</h4>
+              <p>
+                Assist with data entry, phone calls, social media, and other
+                office tasks from home.
+              </p>
+              <ul class="opportunity-list">
+                <li>Work from anywhere</li>
+                <li>Flexible hours</li>
+                <li>Computer skills needed</li>
+              </ul>
+              <button
+                class="btn btn-outline btn-full"
+                onclick="scrollToSignup()"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- New volunteer testimonials section with photo emphasis -->
     <section class="volunteer-testimonials">
-        <div class="container">
-            <div class="section-header-center">
-                <h2>Hear From Our Volunteers</h2>
-                <p>Real stories from people making a real difference</p>
-            </div>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-image">
-                        <img src="/placeholder.svg?height=300&width=300" alt="Sarah volunteer">
-                    </div>
-                    <div class="testimonial-content">
-                        <div class="testimonial-quote">"Volunteering here changed my perspective on life. The gratitude and resilience I see every day is truly inspiring."</div>
-                        <div class="testimonial-author">
-                            <strong>Sarah M.</strong>
-                            <span>Meal Service Volunteer, 2 years</span>
-                        </div>
-                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
-                    </div>
-                </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-image">
-                        <img src="/placeholder.svg?height=300&width=300" alt="James volunteer">
-                    </div>
-                    <div class="testimonial-content">
-                        <div class="testimonial-quote">"I came to give back, but I've received so much more. The friendships and sense of purpose are invaluable."</div>
-                        <div class="testimonial-author">
-                            <strong>James K.</strong>
-                            <span>Education Support, 1 year</span>
-                        </div>
-                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
-                    </div>
-                </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-image">
-                        <img src="/placeholder.svg?height=300&width=300" alt="Thandi volunteer">
-                    </div>
-                    <div class="testimonial-content">
-                        <div class="testimonial-quote">"The training and support from The Haven made it easy to get started. Now I can't imagine my week without my volunteer shift."</div>
-                        <div class="testimonial-author">
-                            <strong>Thandi N.</strong>
-                            <span>Activities Coordinator, 6 months</span>
-                        </div>
-                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header-center">
+          <h2>Hear From Our Volunteers</h2>
+          <p>Real stories from people making a real difference</p>
         </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-image">
+              <img
+                src="/placeholder.svg?height=300&width=300"
+                alt="Sarah volunteer"
+              />
+            </div>
+            <div class="testimonial-content">
+              <div class="testimonial-quote">
+                "Volunteering here changed my perspective on life. The gratitude
+                and resilience I see every day is truly inspiring."
+              </div>
+              <div class="testimonial-author">
+                <strong>Sarah M.</strong>
+                <span>Meal Service Volunteer, 2 years</span>
+              </div>
+              <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-image">
+              <img
+                src="/placeholder.svg?height=300&width=300"
+                alt="James volunteer"
+              />
+            </div>
+            <div class="testimonial-content">
+              <div class="testimonial-quote">
+                "I came to give back, but I've received so much more. The
+                friendships and sense of purpose are invaluable."
+              </div>
+              <div class="testimonial-author">
+                <strong>James K.</strong>
+                <span>Education Support, 1 year</span>
+              </div>
+              <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-image">
+              <img
+                src="/placeholder.svg?height=300&width=300"
+                alt="Thandi volunteer"
+              />
+            </div>
+            <div class="testimonial-content">
+              <div class="testimonial-quote">
+                "The training and support from The Haven made it easy to get
+                started. Now I can't imagine my week without my volunteer
+                shift."
+              </div>
+              <div class="testimonial-author">
+                <strong>Thandi N.</strong>
+                <span>Activities Coordinator, 6 months</span>
+              </div>
+              <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Simplified signup section with clear steps -->
     <section class="signup-section" id="signup">
-        <div class="container">
-            <div class="signup-wrapper">
-                <div class="signup-info">
-                    <h2>Ready to Get Started?</h2>
-                    <p class="signup-intro">Join our volunteer community in three simple steps</p>
-                    
-                    <div class="signup-steps">
-                        <div class="step-item">
-                            <div class="step-number">1</div>
-                            <div class="step-content">
-                                <h4>Fill Out the Form</h4>
-                                <p>Tell us about yourself and your interests</p>
-                            </div>
-                        </div>
-                        <div class="step-item">
-                            <div class="step-number">2</div>
-                            <div class="step-content">
-                                <h4>Attend Orientation</h4>
-                                <p>Learn about our mission and meet the team</p>
-                            </div>
-                        </div>
-                        <div class="step-item">
-                            <div class="step-number">3</div>
-                            <div class="step-content">
-                                <h4>Start Volunteering</h4>
-                                <p>Begin making a difference in your community</p>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <div class="signup-wrapper">
+          <div class="signup-info">
+            <h2>Ready to Get Started?</h2>
+            <p class="signup-intro">
+              Join our volunteer community in three simple steps
+            </p>
 
-                    <div class="contact-info-box">
-                        <h4>Questions?</h4>
-                        <p>Contact our Volunteer Coordinator:</p>
-                        <p><strong>Email:</strong> volunteer@haven.org.za</p>
-                        <p><strong>Phone:</strong> +27 21 123 4567</p>
-                    </div>
+            <div class="signup-steps">
+              <div class="step-item">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                  <h4>Fill Out the Form</h4>
+                  <p>Tell us about yourself and your interests</p>
                 </div>
-
-                <div class="signup-form-container">
-                    <form class="volunteer-signup-form" id="volunteerForm">
-                        <h3>Volunteer Application</h3>
-                        
-                        <div class="form-group">
-                            <label for="fullName">Full Name *</label>
-                            <input type="text" id="fullName" name="fullName" required>
-                            <span class="form-error"></span>
-                        </div>
-
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="email">Email Address *</label>
-                                <input type="email" id="email" name="email" required>
-                                <span class="form-error"></span>
-                            </div>
-                            <div class="form-group">
-                                <label for="phone">Phone Number *</label>
-                                <input type="tel" id="phone" name="phone" required>
-                                <span class="form-error"></span>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="availability">Availability *</label>
-                            <select id="availability" name="availability" required>
-                                <option value="">Select your availability</option>
-                                <option value="weekday-mornings">Weekday Mornings</option>
-                                <option value="weekday-afternoons">Weekday Afternoons</option>
-                                <option value="weekday-evenings">Weekday Evenings</option>
-                                <option value="weekends">Weekends</option>
-                                <option value="flexible">Flexible</option>
-                            </select>
-                            <span class="form-error"></span>
-                        </div>
-
-                        <div class="form-group">
-                            <label>Areas of Interest *</label>
-                            <div class="checkbox-group">
-                                <label><input type="checkbox" name="interests" value="meal-service"> Meal Service</label>
-                                <label><input type="checkbox" name="interests" value="education"> Education Support</label>
-                                <label><input type="checkbox" name="interests" value="healthcare"> Healthcare Support</label>
-                                <label><input type="checkbox" name="interests" value="activities"> Activities Coordination</label>
-                                <label><input type="checkbox" name="interests" value="mentorship"> Career Mentorship</label>
-                                <label><input type="checkbox" name="interests" value="maintenance"> Facility Maintenance</label>
-                                <label><input type="checkbox" name="interests" value="admin"> Administrative Support</label>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="experience">Relevant Experience (Optional)</label>
-                            <textarea id="experience" name="experience" rows="4" placeholder="Tell us about any relevant skills or experience..."></textarea>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="motivation">Why do you want to volunteer? *</label>
-                            <textarea id="motivation" name="motivation" rows="4" required placeholder="Share what motivates you to join our team..."></textarea>
-                            <span class="form-error"></span>
-                        </div>
-
-                        <button type="submit" class="btn btn-primary btn-large btn-full">Submit Application</button>
-                    </form>
+              </div>
+              <div class="step-item">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                  <h4>Attend Orientation</h4>
+                  <p>Learn about our mission and meet the team</p>
                 </div>
+              </div>
+              <div class="step-item">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                  <h4>Start Volunteering</h4>
+                  <p>Begin making a difference in your community</p>
+                </div>
+              </div>
             </div>
+
+            <div class="contact-info-box">
+              <h4>Questions?</h4>
+              <p>Contact our Volunteer Coordinator:</p>
+              <p><strong>Email:</strong> volunteer@haven.org.za</p>
+              <p><strong>Phone:</strong> +27 21 123 4567</p>
+            </div>
+          </div>
+
+          <div class="signup-form-container">
+            <form class="volunteer-signup-form" id="volunteerForm">
+              <h3>Volunteer Application</h3>
+
+              <div class="form-group">
+                <label for="fullName">Full Name *</label>
+                <input type="text" id="fullName" name="fullName" required />
+                <span class="form-error"></span>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" name="email" required />
+                  <span class="form-error"></span>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number *</label>
+                  <input type="tel" id="phone" name="phone" required />
+                  <span class="form-error"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="availability">Availability *</label>
+                <select id="availability" name="availability" required>
+                  <option value="">Select your availability</option>
+                  <option value="weekday-mornings">Weekday Mornings</option>
+                  <option value="weekday-afternoons">Weekday Afternoons</option>
+                  <option value="weekday-evenings">Weekday Evenings</option>
+                  <option value="weekends">Weekends</option>
+                  <option value="flexible">Flexible</option>
+                </select>
+                <span class="form-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label>Areas of Interest *</label>
+                <div class="checkbox-group">
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="interests"
+                      value="meal-service"
+                    />
+                    Meal Service</label
+                  >
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="interests"
+                      value="education"
+                    />
+                    Education Support</label
+                  >
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="interests"
+                      value="healthcare"
+                    />
+                    Healthcare Support</label
+                  >
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="interests"
+                      value="activities"
+                    />
+                    Activities Coordination</label
+                  >
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="interests"
+                      value="mentorship"
+                    />
+                    Career Mentorship</label
+                  >
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="interests"
+                      value="maintenance"
+                    />
+                    Facility Maintenance</label
+                  >
+                  <label
+                    ><input type="checkbox" name="interests" value="admin" />
+                    Administrative Support</label
+                  >
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="experience">Relevant Experience (Optional)</label>
+                <textarea
+                  id="experience"
+                  name="experience"
+                  rows="4"
+                  placeholder="Tell us about any relevant skills or experience..."
+                ></textarea>
+              </div>
+
+              <div class="form-group">
+                <label for="motivation">Why do you want to volunteer? *</label>
+                <textarea
+                  id="motivation"
+                  name="motivation"
+                  rows="4"
+                  required
+                  placeholder="Share what motivates you to join our team..."
+                ></textarea>
+                <span class="form-error"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-large btn-full">
+                Submit Application
+              </button>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-section">
-                    <h3>The Haven</h3>
-                    <p>Providing shelter, support, and dignity to help the homeless reintegrate into society.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="AboutUs.html">About</a></li>
-                        <li><a href="Volunteer.html">Volunteer</a></li>
-                        <li><a href="Events.html">Events</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Contact Info</h4>
-                    <p>2 Napier St, Green Point<br>Cape Town, 8001<br>South Africa</p>
-                    <p><strong>GPS:</strong> -33.9089° S, 18.4094° E</p>
-                    <p>Phone: +27 21 123 4567<br>Email: info@haven.org.za<br>Volunteer Coordinator: volunteer@haven.org.za</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Newsletter</h4>
-                    <p>Stay updated with our latest news and impact stories</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Your email" required>
-                        <button type="submit" class="btn btn-primary">Subscribe</button>
-                    </form>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 The Haven Night Shelter. All rights reserved.</p>
-                <p class="legal-notice">
-                    <a href="#privacy">Privacy Policy</a> | 
-                    <a href="#terms">Terms of Service</a> | 
-                    NPO Registration: 123-456-NPO | 
-                    PBO Number: 930012345
-                </p>
-                <p class="attribution">Website content, images, and materials are protected by copyright law. Unauthorized reproduction is prohibited.</p>
-            </div>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-section">
+            <h3>The Haven</h3>
+            <p>
+              Providing shelter, support, and dignity to help the homeless
+              reintegrate into society.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="AboutUs.html">About</a></li>
+              <li><a href="Volunteer.html">Volunteer</a></li>
+              <li><a href="Events.html">Events</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <p>
+              2 Napier St, Green Point<br />Cape Town, 8001<br />South Africa
+            </p>
+            <p><strong>GPS:</strong> -33.9089° S, 18.4094° E</p>
+            <p>
+              Phone: +27 21 123 4567<br />Email: info@haven.org.za<br />Volunteer
+              Coordinator: volunteer@haven.org.za
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4>Newsletter</h4>
+            <p>Stay updated with our latest news and impact stories</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your email" required />
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
         </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 The Haven Night Shelter. All rights reserved.</p>
+          <p class="legal-notice">
+            <a href="#privacy">Privacy Policy</a> |
+            <a href="#terms">Terms of Service</a> | NPO Registration:
+            123-456-NPO | PBO Number: 930012345
+          </p>
+          <p class="attribution">
+            Website content, images, and materials are protected by copyright
+            law. Unauthorized reproduction is prohibited.
+          </p>
+        </div>
+      </div>
     </footer>
 
     <script src="script.js"></script>
     <script>
-        function scrollToSignup() {
-            document.getElementById('signup').scrollIntoView({ behavior: 'smooth' });
-        }
+      function scrollToSignup() {
+        document
+          .getElementById("signup")
+          .scrollIntoView({ behavior: "smooth" });
+      }
     </script>
-</body>
+  </body>
 </html>
