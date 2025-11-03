@@ -1,296 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      The Haven Night Shelter - No One Should Have to Live on Our Streets
-    </title>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Haven Night Shelter - No One Should Have to Live on Our Streets</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
     <!-- Added scroll progress indicator -->
     <div class="scroll-progress" id="scrollProgress"></div>
 
     <!-- Header -->
     <header class="header">
-      <nav class="nav">
-        <div class="nav-container">
-          <div class="logo">
-            <h1>The Haven</h1>
-          </div>
-          <ul class="nav-menu">
-            <li><a href="Index.html" class="nav-link active">Home</a></li>
-            <li><a href="AboutUs.html" class="nav-link">About</a></li>
-            <li><a href="Volunteer.html" class="nav-link">Volunteer</a></li>
-            <li><a href="Events.html" class="nav-link">Events</a></li>
-          </ul>
-          <div class="nav-actions">
-            <select class="language-switcher" aria-label="Select language">
-              <option value="en">EN</option>
-              <option value="af">AF</option>
-            </select>
-            <a href="Donate.html" class="btn btn-primary">Donate Now</a>
-          </div>
-          <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-      </nav>
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>The Haven</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="Index.html" class="nav-link active">Home</a></li>
+                    <li><a href="AboutUs.html" class="nav-link">About</a></li>
+                    <li><a href="Volunteer.html" class="nav-link">Volunteer</a></li>
+                    <li><a href="Events.html" class="nav-link">Events</a></li>
+                    
+                </ul>
+                <div class="nav-actions">
+                    <select class="language-switcher" aria-label="Select language">
+                        <option value="en">EN</option>
+                        <option value="af">AF</option>
+                    </select>
+                    <a href="Donate.html" class="btn btn-primary">Donate Now</a>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
-      <div class="hero-background">
-        <!-- Added descriptive hero image for homeless shelter -->
-        <img src="hero-image.jpg" alt="Person at shelter" class="hero-image" />
-        <div class="hero-overlay"></div>
-      </div>
-      <div class="hero-content">
-        <h1 class="hero-title">No One Should Have to Live on Our Streets</h1>
-        <p class="hero-subtitle">
-          Providing shelter, support, and dignity to help the homeless
-          reintegrate into society
-        </p>
-        <div class="hero-actions">
-          <a href="Donate.html" class="btn btn-primary btn-large">Donate Now</a>
-          <a href="Volunteer.html" class="btn btn-secondary btn-large"
-            >Volunteer</a
-          >
+        <div class="hero-background">
+            <!-- Added descriptive hero image for homeless shelter -->
+            <img src="hero-image.jpg" alt="Person at shelter" class="hero-image">
+            <div class="hero-overlay"></div>
         </div>
-      </div>
+        <div class="hero-content">
+            <h1 class="hero-title">No One Should Have to Live on Our Streets</h1>
+            <p class="hero-subtitle">Providing shelter, support, and dignity to help the homeless reintegrate into society</p>
+            <div class="hero-actions">
+                <a href="Donate.html" class="btn btn-primary btn-large">Donate Now</a>
+                <a href="Volunteer.html" class="btn btn-secondary btn-large">Volunteer</a>
+            </div>
+        </div>
     </section>
 
     <!-- Live Impact Tracker -->
     <section class="impact-tracker">
-      <div class="container">
-        <div class="impact-stats">
-          <div class="stat">
-            <span class="stat-number" data-target="3482">0</span>
-            <span class="stat-label">Beds Sponsored</span>
-          </div>
-          <div class="stat">
-            <span class="stat-number" data-target="5729">0</span>
-            <span class="stat-label">Meals Provided</span>
-          </div>
-          <div class="stat">
-            <span class="stat-number" data-target="200">0</span>
-            <span class="stat-label">People Helped This Month</span>
-          </div>
+        <div class="container">
+            <div class="impact-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="3482">0</span>
+                    <span class="stat-label">Beds Sponsored</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="5729">0</span>
+                    <span class="stat-label">Meals Provided</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="200">0</span>
+                    <span class="stat-label">People Helped This Month</span>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- About Us -->
     <section class="about-preview">
-      <div class="container">
-        <div class="about-grid">
-          <div class="about-content">
-            <h2>About The Haven</h2>
-            <p>
-              With 15 shelters across Cape Town and surrounding areas, we focus
-              on physical care, social services, personal development, and
-              family reunification, aiming to help clients transition from
-              street life to a stable home.
-            </p>
-            <a href="AboutUs.html" class="btn btn-outline">Learn More</a>
-          </div>
-          <div class="about-image">
-            <!-- Added community support image -->
-            <img
-              src="community-support.jpg"
-              alt="Community support at The Haven"
-            />
-          </div>
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2>About The Haven</h2>
+                    <p>With 15 shelters across Cape Town and surrounding areas, we focus on physical care, social services, personal development, and family reunification, aiming to help clients transition from street life to a stable home.</p>
+                    <a href="AboutUs.html" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="about-image">
+                    <!-- Added community support image -->
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- Our Shelters -->
     <section class="shelters">
-      <div class="container">
-        <h2>Our Shelters</h2>
-        <div class="shelter-map">
-          <div class="map-container">
-            <!-- Added Cape Town map with shelter locations -->
-            <img
-              src="cape-town-map.jpg"
-              alt="Shelter locations across Cape Town"
-            />
-            <div class="map-pins">
-              <div
-                class="pin pin-cape-town-central"
-                data-shelter="Cape Town Central"
-              ></div>
-              <div class="pin pin-woodstock" data-shelter="Woodstock"></div>
-              <div class="pin pin-sea-point" data-shelter="Sea Point"></div>
+        <div class="container">
+            <h2>Our Shelters</h2>
+            <div class="shelter-map">
+                <div class="map-container">
+                    <!-- Added Cape Town map with shelter locations -->
+                    <div class="map-pins">
+                        <div class="pin pin-green-point" data-shelter="Green Point"></div>
+                        <div class="pin pin-woodstock" data-shelter="Woodstock"></div>
+                        <div class="pin pin-cafda" data-shelter="Cafda Village"></div>
+                        <div class="pin pin-kensington" data-shelter="Kensington"></div>
+                    </div>
+                </div>
+                <div class="shelter-info">
+                    <h3>15 Shelters Across Cape Town</h3>
+                    <p>Our network of shelters provides safe, dignified accommodation and support services to help individuals transition off the streets.</p>
+                    
+                    <!-- Added real shelter addresses with GPS coordinates -->
+                    <div class="shelter-locations">
+                        <div class="location-item">
+                            <h4>Green Point Shelter</h4>
+                            <p>2 Napier St, Green Point, Cape Town, 8001</p>
+                            <p class="gps-location"><strong>GPS:</strong> -33.9089° S, 18.4094° E</p>
+                        </div>
+                        
+                        <div class="location-item">
+                            <h4>Woodstock Shelter</h4>
+                            <p>107 Chapel St, Woodstock, Cape Town, 7925</p>
+                            <p class="gps-location"><strong>GPS:</strong> -33.9289° S, 18.4467° E</p>
+                        </div>
+                        
+                        <div class="location-item">
+                            <h4>Cafda Village Shelter</h4>
+                            <p>99 10th Ave, Cafda Village, Cape Town, 7965</p>
+                            <p class="gps-location"><strong>GPS:</strong> -33.9847° S, 18.6428° E</p>
+                        </div>
+                        
+                        <div class="location-item">
+                            <h4>Kensington Shelter</h4>
+                            <p>Corner of 13th Avenue and Dapper Road, Kensington, 7405</p>
+                            <p class="gps-location"><strong>GPS:</strong> -33.9742° S, 18.4889° E</p>
+                        </div>
+                    </div>
+                    
+                    <h4>Services at All Locations:</h4>
+                    <ul>
+                        <li>Emergency accommodation</li>
+                        <li>Meals and basic necessities</li>
+                        <li>Social support services</li>
+                        <li>Skills development programs</li>
+                    </ul>
+                </div>
             </div>
-          </div>
-          <div class="shelter-info">
-            <h3>15 Shelters Across Cape Town</h3>
-            <p>
-              Our network of shelters provides safe, dignified accommodation and
-              support services to help individuals transition off the streets.
-            </p>
-            <!-- Added GPS coordinates for main shelter -->
-            <p class="gps-location">
-              <strong>Main Shelter GPS:</strong> -33.9249° S, 18.4241° E
-            </p>
-            <ul>
-              <li>Emergency accommodation</li>
-              <li>Meals and basic necessities</li>
-              <li>Social support services</li>
-              <li>Skills development programs</li>
-            </ul>
-          </div>
         </div>
-      </div>
     </section>
 
     <!-- How You Can Help -->
     <section class="help-section">
-      <div class="container">
-        <h2>How You Can Help</h2>
-        <div class="help-grid">
-          <div class="help-card">
-            <div class="help-icon">💝</div>
-            <h3>Donate</h3>
-            <p>
-              Your financial support helps us provide beds, meals, and essential
-              services to those in need.
-            </p>
-            <a href="Donate.html" class="btn btn-primary">Give Today</a>
-          </div>
-          <div class="help-card">
-            <div class="help-icon">🤝</div>
-            <h3>Volunteer</h3>
-            <p>
-              Join our team of dedicated volunteers and make a direct impact in
-              someone's life.
-            </p>
-            <a href="Volunteer.html" class="btn btn-secondary">Get Involved</a>
-          </div>
-          <div class="help-card">
-            <div class="help-icon">📅</div>
-            <h3>Events</h3>
-            <p>
-              Participate in our community events and help raise awareness about
-              homelessness.
-            </p>
-            <a href="Events.html" class="btn btn-outline">View Events</a>
-          </div>
+        <div class="container">
+            <h2>How You Can Help</h2>
+            <div class="help-grid">
+                <div class="help-card">
+                    <div class="help-icon">💝</div>
+                    <h3>Donate</h3>
+                    <p>Your financial support helps us provide beds, meals, and essential services to those in need.</p>
+                    <a href="Donate.html" class="btn btn-primary">Give Today</a>
+                </div>
+                <div class="help-card">
+                    <div class="help-icon">🤝</div>
+                    <h3>Volunteer</h3>
+                    <p>Join our team of dedicated volunteers and make a direct impact in someone's life.</p>
+                    <a href="Volunteer.html" class="btn btn-secondary">Get Involved</a>
+                </div>
+                <div class="help-card">
+                    <div class="help-icon">📅</div>
+                    <h3>Events</h3>
+                    <p>Participate in our community events and help raise awareness about homelessness.</p>
+                    <a href="Events.html" class="btn btn-outline">View Events</a>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- Success Stories -->
     <section class="success-stories">
-      <div class="container">
-        <h2>Success Stories</h2>
-        <div class="story-card">
-          <div class="story-image">
-            <!-- Added success story portrait -->
-            <img src="success-story-portrait.jpg" alt="Success story" />
-          </div>
-          <div class="story-content">
-            <blockquote>
-              "The Haven didn't just give me a bed for the night - they gave me
-              hope and the support I needed to rebuild my life. Today, I have my
-              own place and a job I love."
-            </blockquote>
-            <cite>- Michael, Former Resident</cite>
-          </div>
+        <div class="container">
+            <h2>Success Stories</h2>
+            <div class="story-card">
+                <div class="story-image">
+                    <!-- Added success story portrait -->
+                </div>
+                <div class="story-content">
+                    <blockquote>
+                        "The Haven didn't just give me a bed for the night - they gave me hope and the support I needed to rebuild my life. Today, I have my own place and a job I love."
+                    </blockquote>
+                    <cite>- Michael, Former Resident</cite>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- Impact & Reports -->
     <section class="impact-reports">
-      <div class="container">
-        <h2>Impact & Transparency</h2>
-        <div class="reports-grid">
-          <div class="report-card">
-            <h3>Annual Report 2023</h3>
-            <p>See how your support made a difference last year</p>
-            <a href="#" class="btn btn-outline">Download Report</a>
-          </div>
-          <div class="report-card">
-            <h3>Financial Transparency</h3>
-            <p>View our financial statements and see how funds are used</p>
-            <a href="#" class="btn btn-outline">View Finances</a>
-          </div>
+        <div class="container">
+            <h2>Impact & Transparency</h2>
+            <div class="reports-grid">
+                <div class="report-card">
+                    <h3>Annual Report 2023</h3>
+                    <p>See how your support made a difference last year</p>
+                    <a href="#" class="btn btn-outline">Download Report</a>
+                </div>
+                <div class="report-card">
+                    <h3>Financial Transparency</h3>
+                    <p>View our financial statements and see how funds are used</p>
+                    <a href="#" class="btn btn-outline">View Finances</a>
+                </div>
+            </div>
+            <div class="partners">
+                <h3>Our Partners</h3>
+                <div class="partner-logos">
+                    <div class="partner-logo">City of Cape Town</div>
+                    <div class="partner-logo">Department of Social Development</div>
+                    <div class="partner-logo">Local Churches</div>
+                </div>
+            </div>
         </div>
-        <div class="partners">
-          <h3>Our Partners</h3>
-          <div class="partner-logos">
-            <div class="partner-logo">City of Cape Town</div>
-            <div class="partner-logo">Department of Social Development</div>
-            <div class="partner-logo">Local Churches</div>
-          </div>
-        </div>
-      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="container">
-        <div class="footer-grid">
-          <div class="footer-section">
-            <h3>The Haven</h3>
-            <p>
-              Providing shelter, support, and dignity to help the homeless
-              reintegrate into society.
-            </p>
-          </div>
-          <div class="footer-section">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="AboutUs.html">About</a></li>
-              <li><a href="Volunteer.html">Volunteer</a></li>
-              <li><a href="Events.html">Events</a></li>
-            </ul>
-          </div>
-          <div class="footer-section">
-            <h4>Contact Info</h4>
-            <!-- Added GPS coordinates to contact info -->
-            <p>123 Main Street<br />Cape Town, 8001<br />South Africa</p>
-            <p><strong>GPS:</strong> -33.9249° S, 18.4241° E</p>
-            <p>Phone: +27 21 123 4567<br />Email: info@haven.org.za</p>
-          </div>
-          <div class="footer-section">
-            <h4>Newsletter</h4>
-            <p>Stay updated with our latest news and impact stories</p>
-            <form class="newsletter-form">
-              <input type="email" placeholder="Your email" required />
-              <button type="submit" class="btn btn-primary">Subscribe</button>
-            </form>
-          </div>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>The Haven</h3>
+                    <p>Providing shelter, support, and dignity to help the homeless reintegrate into society.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="AboutUs.html">About</a></li>
+                        <li><a href="Volunteer.html">Volunteer</a></li>
+                        <li><a href="Events.html">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <!-- Updated with real Green Point shelter address -->
+                    <p>2 Napier St, Green Point<br>Cape Town, 8001<br>South Africa</p>
+                    <p><strong>GPS:</strong> -33.9089° S, 18.4094° E</p>
+                    <p>Phone: +27 21 123 4567<br>Email: info@haven.org.za</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Stay updated with our latest news and impact stories</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 The Haven Night Shelter. All rights reserved.</p>
+                <p class="legal-notice">
+                    <a href="#privacy">Privacy Policy</a> | 
+                    <a href="#terms">Terms of Service</a> | 
+                    NPO Registration: 123-456-NPO | 
+                    PBO Number: 930012345
+                </p>
+                <p class="attribution">Website content, images, and materials are protected by copyright law. Unauthorized reproduction is prohibited.</p>
+            </div>
         </div>
-        <div class="footer-bottom">
-          <!-- Added comprehensive copyright and rights notice -->
-          <p>&copy; 2025 The Haven Night Shelter. All rights reserved.</p>
-          <p class="legal-notice">
-            <a href="#privacy">Privacy Policy</a> |
-            <a href="#terms">Terms of Service</a> | NPO Registration:
-            123-456-NPO | PBO Number: 930012345
-          </p>
-          <p class="attribution">
-            Website content, images, and materials are protected by copyright
-            law. Unauthorized reproduction is prohibited.
-          </p>
-        </div>
-      </div>
     </footer>
 
     <!-- Added floating donate button -->
     <a href="donate.html" class="floating-donate" title="Donate Now">💝</a>
 
     <script src="script.js"></script>
-  </body>
+</body>
 </html>

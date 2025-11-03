@@ -761,6 +761,45 @@ p {
   transform: scale(1.2) rotate(360deg);
 }
 
+/* Shelter Locations Styling */
+.shelter-locations {
+  margin-top: 2rem;
+}
+
+.location-item {
+  background: var(--white);
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border-left: 4px solid var(--primary-color);
+}
+
+.location-item:hover {
+  transform: translateX(10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  border-left-color: var(--secondary-color);
+}
+
+.location-item h4 {
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.location-item p {
+  margin-bottom: 0.5rem;
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+.location-item .gps-location {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
 /* Help Section */
 .help-section {
   padding: var(--section-padding);
@@ -1029,6 +1068,7 @@ p {
   margin-top: 1rem;
 }
 
+/* Completed special-option and all remaining CSS rules */
 .special-option {
   margin-bottom: 2rem;
 }
@@ -1075,7 +1115,6 @@ p {
   color: var(--text-light);
 }
 
-/* Completed donation-info styles and added remaining CSS */
 .donation-info {
   background-color: var(--light-gray);
   padding: 2rem;
